@@ -1,6 +1,6 @@
 package contabil;
 
 public interface Imposto {
-    public void mostrarDescricao();
+    public String mostrarDescricao();
     public float calcularImposto();
 }
